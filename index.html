@@ -44,5 +44,40 @@
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+        <!-- navigation bar  -->
+      <nav class="mx-auto lg:px-60 lg:py-8 p-5">
+        <div class="navbar bg-[#F85559] rounded-full">
+          <div class="lg:flex-1 text-white">
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-lg">
+                <li><a>Home</a></li>
+                <li><a>About Us 3</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All fruits</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lg:flex-1 navbar-start gap-x-3 text-white">
+            <img src="images/logo.png" />
+            <h3 class="lg:text-4xl text-xl font-semibold">Fruit Burst</h3>
+          </div>
+          <div class="lg:flex-1 navbar-end">
+            <div
+              class="lg:flex lg:justify-between items-center hidden input input-bordered w-24 md:w-auto rounded-full"
+            >
+              <input type="text" placeholder="Search here" />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="lg:hidden">
+              <button class="btn btn-square text-white btn-ghost">
+                <i class="fa-solid fa-bars text-3xl"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
